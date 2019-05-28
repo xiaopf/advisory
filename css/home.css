@@ -1,7 +1,7 @@
 body {
     width:100%;
     background: #F7FAFC;
-    overflow: hidden;
+    overflow-x: hidden;
     background: #fff;
 }
 #canvas {
@@ -23,29 +23,46 @@ body {
 /* header */
 .header{
     width:100%;
-    padding-top:40px;
+    padding:40px 0 20px 0;
 }
 
 .header .logo_wrap {
-    display: inline-block;
+    float:left;
     vertical-align: bottom;
 }
 .header .navbar{
-    display: inline-block;
+    float:right;
     vertical-align: bottom;
+    padding-top:20px;
 }
-
 
 .navbar li{
-    width:84px;
+    width:86px;
     height:26px;
+    line-height: 26px;
+    text-align: center;
     background-color: #3774B8;
+    display: inline-block;
+    vertical-align: top;
+    margin-right:8px;
+    color:#fff;
+    border-radius: 4px;
+    font-size: 14px;
 }
 
+.navbar .active{
+    background-color: #76BA00;
+}
 
+.navbar li:last-child {
+    margin:0
+}
 
-
-
+.header:after {
+    display: table;
+    content: "";
+    clear: both;
+}
 .dividing_line{
     width: 100%;
     height: 2px;
@@ -59,9 +76,13 @@ body {
     margin-right:25px;
     height:auto;
     overflow: hidden;
+    display: inline-block;
+    vertical-align: top;
 }
 .common_item h3{
     font-size:18px;
+    height:24px;
+    line-height: 24px;
     font-style: italic;
     color:#76BA00;
 }
@@ -107,16 +128,17 @@ body {
 }
 /* end */
 
-.content_item{
+.content_text{
     width:100%;
     height:auto;
     font-size:0;
 }
-.content_item .common_item {
+
+/* .content_text .common_item {
     display: inline-block;
     vertical-align: top;
-}
-.content_item .common_item:last-child{
+} */
+.content_text .common_item:last-child{
     margin:0;
 }
 
@@ -138,4 +160,45 @@ body {
 }
 .footer ul:last-child {
     border-right:none;
+}
+
+
+/* self css */
+.pureText{
+    width:505px;
+    height:auto;
+    margin:34px 0 0 0;
+    border-top:1px solid #3774B8;
+    display:inline-block;
+    vertical-align: top;
+    margin-right:25px;
+}
+.pureText p {
+    font-size:20px;
+    line-height: 26px;
+    padding-top:15px; 
+    color:#3774B8;
+}
+.content_img .common_item{
+    margin:0;
+}
+
+.banner{
+    position: relative;
+    width:100%;
+    height:auto;
+    margin-bottom: 15px;
+}
+.banner img{
+    width:100%;
+    height:auto;
+}
+.banner p{
+    position: absolute;
+    top:0;
+    left:0;
+    width:50%;
+    height: auto;
+    font-size: 36px;
+    color:#3774B8;
 }
