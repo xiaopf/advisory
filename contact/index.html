@@ -10,6 +10,28 @@
     <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB6X7j8end2uHUTXKdHO2J4kaAJu8IK1Wg&callback=initMap" type="text/javascript"></script>
     <link rel='stylesheet' href="./css/home.css" />
     <link rel='stylesheet' href="./css/reset.css" />
+    <style>
+        /* Set the size of the div element that contains the map */
+        #map {
+            height: 400px;
+            /* The height is 400 pixels */
+            width: 100%;
+            /* The width is the width of the web page */
+        }
+    </style>
+
+    <script>
+        // // Initialize and add the map
+        // function initMap() {
+        //     // The location of Uluru
+        //     var uluru = { lat: 52.204321, lng: 0.114935 };
+        //     // The map, centered at Uluru
+        //     var map = new google.maps.Map(
+        //         document.getElementById('map'), { zoom: 10, center: uluru });
+        //     // The marker, positioned at Uluru
+        //     var marker = new google.maps.Marker({ position: uluru, map: map });
+        // }
+    </script>
 </head>
 <body>
     <canvas id = "canvas"></canvas>
@@ -120,6 +142,7 @@
                 <li></li>
             </ul>
         </div>
+        <div id="map"></div>
     </div>
 </body>
 </html>
