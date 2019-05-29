@@ -1,14 +1,15 @@
 $(document).ready(function(){
-
-
-
-
-
-
-
-
-
+   
+    //导航栏
     
+
+
+
+
+
+
+
+    //背景
     var WIDTH = 2000, HEIGHT = 1000, POINT = 70;
     var canvas = document.getElementById('canvas');
     canvas.width = WIDTH,

@@ -10,20 +10,61 @@
     <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB6X7j8end2uHUTXKdHO2J4kaAJu8IK1Wg&callback=initMap" type="text/javascript"></script>
     <link rel='stylesheet' href="./css/home.css" />
     <link rel='stylesheet' href="./css/reset.css" />
+    <style>
+        /* Set the size of the div element that contains the map */
+        #map {
+            height: 400px;
+            /* The height is 400 pixels */
+            width: 100%;
+            /* The width is the width of the web page */
+        }
+    </style>
+
+    <script>
+        // // Initialize and add the map
+        // function initMap() {
+        //     // The location of Uluru
+        //     var uluru = { lat: 52.204321, lng: 0.114935 };
+        //     // The map, centered at Uluru
+        //     var map = new google.maps.Map(
+        //         document.getElementById('map'), { zoom: 10, center: uluru });
+        //     // The marker, positioned at Uluru
+        //     var marker = new google.maps.Marker({ position: uluru, map: map });
+        // }
+    </script>
 </head>
 <body>
     <canvas id = "canvas"></canvas>
     <div class="container">
         <div class="header">
-            <a class="logo_wrap" href="/home">
+            <a class="logo_wrap" href="file:///Users/project/advisory/home">
                 <img src="./images/logo.jpg" alt="">
             </a>
             <ul class="navbar">
-                <li class="active">Home</li>
-                <li>About Us</li>
-                <li>Services</li>
-                <li>Experience</li>
-                <li>Contact</li>
+                <li class="active">
+                    <a href="file:///Users/project/advisory/home">Home</a>
+                </li>
+                <li class="pop_01">
+                    <span>About Us</span>
+                    <ul class="pop_list pop_list_01">
+                        <li><a href="file:///Users/project/advisory/news">News</a></li>
+                        <li><a href="file:///Users/project/advisory/events">Events</a></li>
+                        <li><a href="file:///Users/project/advisory/teams">Teams</a></li>
+                        <li><a href="file:///Users/project/advisory/careers">Careers</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="file:///Users/project/advisory/services">Services</a>
+                </li>
+                <li class="pop_02">
+                    <span>Experience</span>
+                    <ul class="pop_list pop_list_02">
+                        <li><a href="file:///Users/project/advisory/caseStudies">Case Studies</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="file:///Users/project/advisory/contact">Contact</a>
+                </li>
             </ul>
         </div>
         <div class="content_img">
@@ -120,6 +161,7 @@
                 <li></li>
             </ul>
         </div>
+        <div id="map"></div>
     </div>
 </body>
 </html>
