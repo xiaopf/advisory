@@ -222,12 +222,56 @@ body {
     vertical-align: top;
     margin-right:25px;
 }
-.pureText p {
+.pureText p,
+.pureText_with_title p {
     font-size:20px;
     line-height: 26px;
     padding-top:15px; 
     color:#3774B8;
 }
+.pureText_with_title{
+    width:505px;
+    height:auto;
+    display:inline-block;
+    vertical-align: top;
+    margin-right:25px;
+}
+
+.pureText_with_title h3{
+    font-size:18px;
+    height:24px;
+    line-height: 24px;
+    padding-bottom:10px;
+    font-style: italic;
+    color:#76BA00;
+    border-bottom:1px solid #5D9ACE;
+}
+
+.link_with_arrow {
+    font-size: 0;
+    display: block;
+    padding: 6px 0;
+}
+
+.link_with_arrow span {
+    font-size: 14px;
+    width: auto;
+    height: 20px;
+    line-height: 20px;
+    color: #3774B8;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.link_with_arrow img {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+
+
 .content_img .common_item{
     margin:0;
 }

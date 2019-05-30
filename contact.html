@@ -7,30 +7,21 @@
     <title>JIANFENG</title>
     <script type="text/javascript" src="./js/jquery-3.3.1.min.js"></script>
     <script type="text/javascript" src="./js/home.js"></script>
-    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB6X7j8end2uHUTXKdHO2J4kaAJu8IK1Wg&callback=initMap" type="text/javascript"></script>
-    <link rel='stylesheet' href="./css/home.css" />
+    <!-- <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB6X7j8end2uHUTXKdHO2J4kaAJu8IK1Wg&callback=initMap" type="text/javascript"></script> -->
+    <link rel='stylesheet' href=" ./css/common.css" />
+    <link rel='stylesheet' href="./css/contact.css" />
     <link rel='stylesheet' href="./css/reset.css" />
-    <style>
-        /* Set the size of the div element that contains the map */
-        #map {
-            height: 400px;
-            /* The height is 400 pixels */
-            width: 100%;
-            /* The width is the width of the web page */
-        }
-    </style>
-
     <script>
-        // // Initialize and add the map
-        // function initMap() {
-        //     // The location of Uluru
-        //     var uluru = { lat: 52.204321, lng: 0.114935 };
-        //     // The map, centered at Uluru
-        //     var map = new google.maps.Map(
-        //         document.getElementById('map'), { zoom: 10, center: uluru });
-        //     // The marker, positioned at Uluru
-        //     var marker = new google.maps.Marker({ position: uluru, map: map });
-        // }
+        // Initialize and add the map
+        function initMap() {
+            // The location of Uluru
+            var uluru = { lat: 52.204321, lng: 0.114935 };
+            // The map, centered at Uluru
+            var map = new google.maps.Map(
+                document.getElementById('map'), { zoom: 10, center: uluru });
+            // The marker, positioned at Uluru
+            var marker = new google.maps.Marker({ position: uluru, map: map });
+        }
     </script>
 </head>
 <body>
@@ -67,57 +58,66 @@
                 </li>
             </ul>
         </div>
-        <div class="content_img">
-            <div class="banner">
-                <img src="./images/home.jpg" alt="">
-                <p>
-                    A fresh approach to life science PR & marketing
+        <div class="contact_wrap">
+            <div class="map_wrap">
+                <h3>Contact</h3>
+                <div id="map"></div>
+                <p class="address">
+                    Stirling House<br>
+                    Cambridge Innovation Park<br>
+                    Denny End Road<br>
+                    Waterbeach<br>
+                    Cambridge<br>
+                    CB25 9QE, UK
+                </p>
+                <p class="address">
+                    Tel: +44 (0) 1223 968 920<br>
+                    Email: info@zymecommunications.com
                 </p>
             </div>
-            <div>
-                <div class="pureText">
-                    <p>
-                        Zyme Communications provides
-                        <br>
-                        PR and marketing services for the life science
-                        <br>
-                        sector. We support companies to raise their profile, build corporate value and generate interest from commercial leads, investors and partners.
-                    </p>
-                </div>
-                <div class="common_item">
-                    <h3>Our Clients</h3>
+            <div class="common_item">
+                <h3>Latest Tweets</h3>
+                <div class="litte_dividing_line"></div>
+                <a href="" class="detail_wrap">
+                    <div class="text_wrap">
+                        <p>
+                            An experienced senior team of specialists in life science communications,
+                            with expertise gained in-house
+                            and agency side, offering the flexibility to support both early-stage
+                            companies and large
+                            multinationals.
+                        </p>
+                        <p class="arrow"></p>
+                    </div>
                     <div class="litte_dividing_line"></div>
-                    <a href="" class="detail_wrap">
-                        <img src="./images/test.jpg" alt="">
-                    </a>
-                </div>
-            </div>
-        </div>
-        <div class="dividing_line"></div>
-        <div class="content_text">
-            <div class="common_item">
-                <h3>People</h3>
-                <div class="litte_dividing_line"></div>
-                <a href="" class="detail_wrap">
-                    <img src="./images/test.jpg" alt="">
                     <div class="text_wrap">
                         <p>
-                            An experienced senior team of specialists in life science communications, with expertise gained in-house and agency side, offering the flexibility to support both early-stage companies and large multinationals.
+                            An experienced senior team of specialists in life science communications,
+                            with expertise gained in-house
+                            and agency side, offering the flexibility to support both early-stage
+                            companies and large
+                            multinationals.
                         </p>
-                        <p class = "arrow"></p>
-                    </div>                    
-                </a>
-                <div class="litte_dividing_line"></div>
-            </div>
-            <div class="common_item">
-                <h3>People</h3>
-                <div class="litte_dividing_line"></div>
-                <a href="" class="detail_wrap">
-                    <img src="./images/test.jpg" alt="">
+                        <p class="arrow"></p>
+                    </div>
+                    <div class="litte_dividing_line"></div>
                     <div class="text_wrap">
                         <p>
-                            An experienced senior team of specialists in life science communications, with expertise gained in-house
-                            and agency side, offering the flexibility to support both early-stage companies and large
+                            An experienced senior team of specialists in life science communications,
+                            with expertise gained in-house
+                            and agency side, offering the flexibility to support both early-stage
+                            companies and large
+                            multinationals.
+                        </p>
+                        <p class="arrow"></p>
+                    </div>
+                    <div class="litte_dividing_line"></div>
+                    <div class="text_wrap">
+                        <p>
+                            An experienced senior team of specialists in life science communications,
+                            with expertise gained in-house
+                            and agency side, offering the flexibility to support both early-stage
+                            companies and large
                             multinationals.
                         </p>
                         <p class="arrow"></p>
@@ -125,23 +125,6 @@
                 </a>
                 <div class="litte_dividing_line"></div>
             </div>
-            <div class="common_item">
-                <h3>People</h3>
-                <div class="litte_dividing_line"></div>
-                <a href="" class="detail_wrap">
-                    <img src="./images/test.jpg" alt="">
-                    <div class="text_wrap">
-                        <p>
-                            An experienced senior team of specialists in life science communications, with expertise gained in-house
-                            and agency side, offering the flexibility to support both early-stage companies and large
-                            multinationals.
-                        </p>
-                        <p class="arrow"></p>
-                    </div>
-                </a>
-                <div class="litte_dividing_line"></div>
-            </div>
-            
         </div>
         <div class="dividing_line"></div>
         <div class="footer">
@@ -161,7 +144,6 @@
                 <li></li>
             </ul>
         </div>
-        <div id="map"></div>
     </div>
 </body>
 </html>
