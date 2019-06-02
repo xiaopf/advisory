@@ -1,0 +1,12 @@
+.list_with_circle{
+    width: 100%;
+    margin:10px 0;
+}
+.list_with_circle li{
+    list-style-image: url(/static/images/bullet.png);
+    margin-left: 24px;
+}
+
+.list_with_circle li p{
+    margin-bottom: 0;
+}

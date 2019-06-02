@@ -1,0 +1,38 @@
+.services {
+    margin:20px 0 0 0;
+    border-radius: 4px;
+    overflow: hidden;
+}
+.services tbody p {
+    font-size: 14px;
+}
+
+.services tbody th {
+    width: 23%;
+    height: 18px;
+    color: #fff;
+    text-decoration: none;
+    background: #3774B8;
+    border: 2px solid #fff;
+    text-align: left;
+    padding: 4px;
+    vertical-align: top;
+    line-height: 18px;
+    text-align: center;
+}
+
+.services tbody td {
+    width: 78px;
+    background: #d5e2f0;
+    border: 2px solid #fff;
+    padding: 4px;
+    vertical-align: top;
+    line-height: 18px;
+    color: #3774B8;
+}
+.middle_dividing_line{
+    width:100%;
+    height:0;
+    padding: 15px 0;
+    border-bottom: 1px solid #5D9ACE;
+}
