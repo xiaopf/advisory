@@ -1,52 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>JIANFENG</title>
-    <script type="text/javascript" src="./js/jquery-3.3.1.min.js"></script>
-    <script type="text/javascript" src="./js/home.js"></script>
-    <link rel='stylesheet' href=" ./css/common.css" />
-    <link rel='stylesheet' href=" ./css/events.css" />
-    <link rel='stylesheet' href="./css/reset.css" />
-</head>
+    <head>
+        ${require('../component/head.html')}
+        <link rel="stylesheet" href=".././static/css/events.css">
+    </head>
 
 <body>
     <canvas id="canvas"></canvas>
     <div class="container">
-        <div class="header">
-            <a class="logo_wrap" href="file:///Users/project/advisory/home">
-                <img src="./images/logo.jpg" alt="">
-            </a>
-            <ul class="navbar">
-                <li class="active">
-                    <a href="file:///Users/project/advisory/home">Home</a>
-                </li>
-                <li class="pop_01">
-                    <span>About Us</span>
-                    <ul class="pop_list pop_list_01">
-                        <li><a href="file:///Users/project/advisory/news">News</a></li>
-                        <li><a href="file:///Users/project/advisory/events">Events</a></li>
-                        <li><a href="file:///Users/project/advisory/teams">Teams</a></li>
-                        <li><a href="file:///Users/project/advisory/careers">Careers</a></li>
-                    </ul>
-                </li>
-                <li>
-                    <a href="file:///Users/project/advisory/services">Services</a>
-                </li>
-                <li class="pop_02">
-                    <span>Experience</span>
-                    <ul class="pop_list pop_list_02">
-                        <li><a href="file:///Users/project/advisory/caseStudies">Case Studies</a></li>
-                    </ul>
-                </li>
-                <li>
-                    <a href="file:///Users/project/advisory/contact">Contact</a>
-                </li>
-            </ul>
-        </div>
+        ${require('../component/header.html')}
         <div class="content_events">
             <div class="events_wrap">
                 <h3>Events</h3>
@@ -157,7 +120,7 @@
                 <h3>Upcoming Events</h3>
                 <div class="litte_dividing_line"></div>
                 <a href="" class="detail_wrap">
-                    <img src="./images/test.jpg" alt="">
+                    <img src="../images/test.jpg" alt="">
                     <div class="text_wrap">
                         <p>
                             An experienced senior team of specialists in life science communications, with expertise
@@ -174,68 +137,9 @@
 
 
         <div class="dividing_line"></div>
-        <div class="footer">
-            <ul>
-                <li>
-                    Offices
-                </li>
-                <li>
-                    Cambridge Office:<br>
-                    Zyme Communications Ltd,<br>
-                    Stirling House,<br>
-                    Cambridge Innovation Park,<br>
-                    Denny End Road, Waterbeach,<br>
-                    Cambridge, CB25 9QE, UK<br>
-                </li>
-                <li>
-                    Manchester Office:<br>
-                    Beehive Lofts,<br>
-                    Beehive Mill,<br>
-                    Jersey Street,<br>
-                    Manchester, M4 6JG, UK<br>
-                </li>
-            </ul>
-            <ul>
-                <li>
-                    Offices
-                </li>
-                <li>
-                    Cambridge Office:<br>
-                    Zyme Communications Ltd,<br>
-                    Stirling House,<br>
-                    Cambridge Innovation Park,<br>
-                    Denny End Road, Waterbeach,<br>
-                    Cambridge, CB25 9QE, UK<br>
-                </li>
-                <li>
-                    Manchester Office:<br>
-                    Beehive Lofts,<br>
-                    Beehive Mill,<br>
-                    Jersey Street,<br>
-                    Manchester, M4 6JG, UK<br>
-                </li>
-            </ul>
-            <ul>
-                <li>
-                    Offices
-                </li>
-                <li>
-                    Cambridge Office:<br>
-                    Zyme Communications Ltd,<br>
-                    Stirling House,<br>
-                    Cambridge Innovation Park,<br>
-                    Denny End Road, Waterbeach,<br>
-                    Cambridge, CB25 9QE, UK<br>
-                </li>
-                <li>
-                    Manchester Office:<br>
-                    Beehive Lofts,<br>
-                    Beehive Mill,<br>
-                    Jersey Street,<br>
-                    Manchester, M4 6JG, UK<br>
-                </li>
-            </ul>
-        </div>
+
+        ${require('../component/footer.html')}
+
     </div>
 </body>
 

@@ -13,11 +13,11 @@ $(document).ready(function(){
     var WIDTH = 2000, HEIGHT = 1000, POINT = 70;
     var canvas = document.getElementById('canvas');
     canvas.width = WIDTH,
-        canvas.height = HEIGHT;
+    canvas.height = HEIGHT;
     var context = canvas.getContext('2d');
     context.strokeStyle = 'rgba(0,0,0,0.02)',
-        context.strokeWidth = 1,
-        context.fillStyle = 'rgba(0,0,0,0.05)';
+    context.strokeWidth = 1,
+    context.fillStyle = 'rgba(0,0,0,0.05)';
     var circleArr = [];
 
     //线条：开始xy坐标，结束xy坐标，线条透明度

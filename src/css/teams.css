@@ -47,6 +47,6 @@
     display: block;
     height:10px;
 }
-.common_item {
+.container .common_item {
     margin: 0;
 }

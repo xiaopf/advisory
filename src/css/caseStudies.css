@@ -65,6 +65,6 @@
 .link_with_arrow span{
     font-weight: bold;
 }
-.common_item {
+.container .common_item {
     margin: 0;
 }
