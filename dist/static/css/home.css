@@ -1,0 +1,253 @@
+body {
+    width:100%;
+    background: #F7FAFC;
+    overflow-x: hidden;
+    background: #fff;
+}
+#canvas {
+    display: block;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+}
+.container{
+    width:780px;
+    padding:0 20px;
+    height:auto;
+    background-color:#fff;
+    margin:0 auto;
+    box-shadow: 6px 0 10px rgba(0, 0, 0, 0.6),
+    -6px 0 10px rgba(0, 0, 0, 0.6);
+}
+/* header */
+.header{
+    width:100%;
+    padding:40px 0 20px 0;
+}
+
+.header .logo_wrap {
+    float:left;
+    vertical-align: bottom;
+}
+.header .navbar{
+    float:right;
+    vertical-align: bottom;
+    padding-top:20px;
+}
+
+.navbar li{
+    width:86px;
+    height:auto;
+    display: inline-block;
+    vertical-align: top;
+    margin-right:8px;  
+    position: relative;
+    border-radius: 4px;
+}
+.navbar li:last-child {
+    margin: 0
+}
+.navbar li span,
+.navbar li a{
+    display:block;
+    cursor:pointer;
+    border-radius: 4px;
+    height:26px;
+    line-height: 26px;
+    text-align: center;
+    background-color: #3774B8;
+    color:#fff;
+    font-size: 13px;
+    text-decoration: none;
+}
+.pop_list{
+    width:100%;
+    height:auto;
+    position:absolute;
+    top:26px;
+    left:0;
+    padding-top:6px;
+    z-index:2;
+    display:none;
+    transition: 0.5s all;
+}
+.pop_list li{
+    margin:0 0 6px 0;
+}
+.navbar .active a{
+    background-color: #76BA00;
+}
+
+
+.navbar>li a:hover{
+    background-color: rgb(221, 143, 26);
+}
+.header .navbar>li span:hover {
+    background-color: rgb(221, 143, 26);
+}
+
+.pop_list ul:hover {
+    display: block;
+}
+.pop_01:hover ul{
+    display:block;
+}
+.pop_02:hover ul{
+    display:block;
+}
+
+
+.header:after {
+    display: table;
+    content: "";
+    clear: both;
+}
+.dividing_line{
+    width: 100%;
+    height: 2px;
+    margin: 20px 0;
+    background: #5D9ACE;
+}
+
+/* common item */
+.common_item{
+    width:243px;
+    margin-right:25px;
+    height:auto;
+    overflow: hidden;
+    display: inline-block;
+    vertical-align: top;
+}
+.common_item h3{
+    font-size:18px;
+    height:24px;
+    line-height: 24px;
+    font-style: italic;
+    color:#76BA00;
+}
+
+.common_item .detail_wrap{
+    display:block;
+    width: 100%;
+    height:auto;
+}
+.detail_wrap img{
+    width: 100%;
+    height:auto;
+}
+.detail_wrap .text_wrap{
+    width: 100%;
+    height: auto;
+    font-size: 0;
+    margin:8px 0;
+}
+.text_wrap p:first-child{
+    display: inline-block;
+    vertical-align: bottom;
+    font-size: 14px;
+    color:#3774B8;
+    font-family: 'allerregular','Calibri','Arial','Helvetica','sans-serif';
+    line-height:20px;
+    width:90%;
+    margin-right:4px;
+}
+.text_wrap p:last-child{
+    display: inline-block;
+    vertical-align: bottom;
+    background:url(/static/images/arrow.png) no-repeat center center;
+    width:20px;
+    height:26px;
+}
+
+.litte_dividing_line{
+    width: 100%;
+    height: 1px;
+    margin: 10px 0;
+    background: #5D9ACE;
+}
+/* end */
+
+.content_text{
+    width:100%;
+    height:auto;
+    font-size:0;
+}
+
+/* .content_text .common_item {
+    display: inline-block;
+    vertical-align: top;
+} */
+.content_text .common_item:last-child{
+    margin:0;
+}
+
+/* footer */
+.footer{
+    width:740px;
+    height:190px;
+    margin:0 auto;
+    background:#3774b8;
+    font-size:0;
+    padding:20px;
+}
+.footer ul{
+    display: inline-block;
+    vertical-align:top;
+    padding-left: 15px;
+    width:230px;
+    height:190px;
+    border-right:1px solid #fff;
+    font-size: 0;
+}
+.footer ul:last-child {
+    border-right:none;
+}
+.footer ul li{
+    display:inline-block;
+    width:100%;
+    vertical-align: center;
+    font-size: 13px;
+    color:#fff;
+}
+
+
+/* self css */
+.pureText{
+    width:515px;
+    height:auto;
+    margin:34px 0 0 0;
+    border-top:1px solid #3774B8;
+    display:inline-block;
+    vertical-align: top;
+    margin-right:15px;
+}
+.pureText p {
+    font-size:20px;
+    line-height: 26px;
+    padding-top:15px; 
+    color:#3774B8;
+}
+.content_img .common_item{
+    margin:0;
+}
+
+.banner{
+    position: relative;
+    width:100%;
+    height:auto;
+    margin-bottom: 15px;
+}
+.banner img{
+    width:100%;
+    height:auto;
+}
+.banner p{
+    position: absolute;
+    top:0;
+    left:0;
+    width:50%;
+    height: auto;
+    font-size: 36px;
+    color:#3774B8;
+}

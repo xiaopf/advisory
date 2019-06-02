@@ -1,0 +1,60 @@
+.content_careers {
+    width: 100%;
+    height: auto;
+}
+
+.careers_wrap {
+    width: 515px;
+    height: auto;
+    margin-right: 15px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.careers_wrap>h3 {
+    color: #76BA00;
+    font-size: 18px;
+    font-style: italic;
+    padding: 8px 0;
+    border-bottom: 1px solid #5D9ACE;
+}
+
+.careers{
+    margin-top:20px;
+}
+
+.careers li {
+    width: 100%;
+}
+
+.careers li h3 {
+    width: 90%;
+    color: #3774B8;
+    font-size: 20px;
+    padding: 8px 0;
+    border-bottom: 1px solid #5D9ACE;
+}
+
+.careers li p {
+    width: 90%;
+    display: inline-block;
+    color: #3774B8;
+    font-size: 14px;
+    line-height: 20px;
+}
+.careers li p span{
+    
+    font-size: 14px;
+    line-height: 20px;
+}
+.careers li p a{
+    font-weight: bold;
+    text-decoration: none;
+    display:block;
+    color: #3774B8;
+    padding:10px 0;
+}
+
+.container .common_item {
+    margin: 0;
+}
