@@ -155,9 +155,9 @@ body {
 .text_wrap p:last-child{
     display: inline-block;
     vertical-align: bottom;
-    background:url('../images/arrow.png') no-repeat center center;
+    background:url('../images/arrow1.png') no-repeat center center;
     width:20px;
-    height:26px;
+    height:20px;
 }
 
 .litte_dividing_line{
@@ -250,4 +250,34 @@ body {
     height: auto;
     font-size: 36px;
     color:#3774B8;
+}
+
+.meeting_name {
+    font-size: 14px;
+    color: #3774B8;
+    font-weight: bold;
+    line-height: 20px;
+    height: 20px;
+}
+
+.meeting_date,
+.meeting_addr {
+    font-size: 14px;
+    line-height: 20px;
+    height: 20px;
+    color: #3774B8;
+}
+
+.events_meeting_wrap{
+    display: block;
+    padding:4px 0;
+}
+.events_meeting_wrap>span{
+    
+    display: block;
+    width:100%;
+    height:auto;
+}
+.upComingEvents{
+    cursor: pointer;
 }

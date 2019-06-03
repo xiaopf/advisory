@@ -43,7 +43,9 @@
    text-decoration: none;
    line-height: 24px;
 }
-
+.news li .news_title a:hover {
+    text-decoration: underline #3774B8;
+}
 .news li .news_summary {
     color: #3774B8;
     font-size: 14px;
@@ -54,7 +56,9 @@
     color: #3774B8;
     text-decoration: none;
 }
-
+.news li .news_summary a:hover {
+    text-decoration: underline #3774B8;
+}
 .common_item{
     margin:0;
 }

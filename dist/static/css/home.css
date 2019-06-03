@@ -155,9 +155,9 @@ body {
 .text_wrap p:last-child{
     display: inline-block;
     vertical-align: bottom;
-    background:url(/static/images/arrow.png) no-repeat center center;
+    background:url(/static/images/arrow1.png) no-repeat center center;
     width:20px;
-    height:26px;
+    height:20px;
 }
 
 .litte_dividing_line{
