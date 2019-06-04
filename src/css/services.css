@@ -1,13 +1,13 @@
-.services {
+.services_table {
     margin:20px 0 0 0;
     border-radius: 4px;
     overflow: hidden;
 }
-.services tbody p {
+.services_table tbody p {
     font-size: 14px;
 }
 
-.services tbody th {
+.services_table tbody th {
     width: 23%;
     height: 18px;
     color: #fff;
@@ -21,7 +21,7 @@
     text-align: center;
 }
 
-.services tbody td {
+.services_table tbody td {
     width: 78px;
     background: #d5e2f0;
     border: 2px solid #fff;

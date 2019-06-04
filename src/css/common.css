@@ -75,10 +75,12 @@ body {
 .pop_list li{
     margin:0 0 6px 0;
 }
-.navbar .active a{
+.navbar .active>a{
     background-color: #76BA00;
 }
-
+.navbar .active>span>a {
+    background-color: #76BA00;
+}
 
 .navbar>li a:hover{
     background-color: rgb(221, 143, 26);

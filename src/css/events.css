@@ -24,6 +24,10 @@
     margin:15px 0;
     line-height: 15px;
 }
+.events{
+    width: 95%;
+    height:auto;
+}
 .events li {
     padding-bottom: 12px;
     border-bottom: 1px solid #5D9ACE;
@@ -52,7 +56,9 @@
     text-decoration: none;
     color: #3774B8;
 }
-
+.events li>a:hover {
+    text-decoration: underline#3774B8;
+}
 .container .common_item {
     margin: 0;
 }

@@ -1,12 +1,20 @@
 $(document).ready(function(){
    
     //导航栏
-    
+    let pathname = window.location.pathname;
+    let pathArr = pathname.split('/');
+    let keypath = pathArr[pathArr.length - 1]
+    $(`.${keypath}`).addClass('active');
 
+    let aboutUs = ['news', 'events', 'teams', 'careers','newsDetail'];
+    let experience = ['caseStudies'];
 
-
-
-
+    if ( aboutUs.indexOf(keypath) > -1){
+        $('.aboutUs').addClass('active');
+    }
+    if ( experience.indexOf(keypath) > -1){
+        $('.experience').addClass('active');
+    }
 
 
     //背景

@@ -6,7 +6,7 @@
         <link rel="stylesheet" href=".././static/css/contact.css">
     </head>
 
-    <!-- <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB6X7j8end2uHUTXKdHO2J4kaAJu8IK1Wg&callback=initMap" type="text/javascript"></script> -->
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB6X7j8end2uHUTXKdHO2J4kaAJu8IK1Wg&callback=initMap" type="text/javascript"></script>
     <script>
         // Initialize and add the map
         function initMap() {
@@ -44,54 +44,10 @@
                 </p>
             </div>
             <div class="common_item">
-                <h3>Latest Tweets</h3>
-                <div class="litte_dividing_line"></div>
-                <a href="" class="detail_wrap">
-                    <div class="text_wrap">
-                        <p>
-                            An experienced senior team of specialists in life science communications,
-                            with expertise gained in-house
-                            and agency side, offering the flexibility to support both early-stage
-                            companies and large
-                            multinationals.
-                        </p>
-                        <p class="arrow"></p>
-                    </div>
-                    <div class="litte_dividing_line"></div>
-                    <div class="text_wrap">
-                        <p>
-                            An experienced senior team of specialists in life science communications,
-                            with expertise gained in-house
-                            and agency side, offering the flexibility to support both early-stage
-                            companies and large
-                            multinationals.
-                        </p>
-                        <p class="arrow"></p>
-                    </div>
-                    <div class="litte_dividing_line"></div>
-                    <div class="text_wrap">
-                        <p>
-                            An experienced senior team of specialists in life science communications,
-                            with expertise gained in-house
-                            and agency side, offering the flexibility to support both early-stage
-                            companies and large
-                            multinationals.
-                        </p>
-                        <p class="arrow"></p>
-                    </div>
-                    <div class="litte_dividing_line"></div>
-                    <div class="text_wrap">
-                        <p>
-                            An experienced senior team of specialists in life science communications,
-                            with expertise gained in-house
-                            and agency side, offering the flexibility to support both early-stage
-                            companies and large
-                            multinationals.
-                        </p>
-                        <p class="arrow"></p>
-                    </div>
-                </a>
-                <div class="litte_dividing_line"></div>
+                ${require("../component/lastTweets.html")}
+                <!--  -->
+                ${require("../component/keepInTouch.html")}
+                <!-- <div class="litte_dividing_line"></div> -->
             </div>
         </div>
         <div class="dividing_line"></div>
