@@ -3,8 +3,16 @@ $(document).ready(function(){
     //导航栏
     let pathname = window.location.pathname;
     let pathArr = pathname.split('/');
-    let keypath = pathArr[pathArr.length - 1]
-    $(`.${keypath}`).addClass('active');
+    let keypath;
+
+    if (!pathArr[0]){
+        keypath = pathArr[pathArr.length - 2];
+    } else {
+        keypath = pathArr[pathArr.length - 1];
+    }
+     
+    console.log(keypath)
+    $('.' + keypath).addClass('active');
 
     let aboutUs = ['news', 'events', 'teams', 'careers','newsDetail'];
     let experience = ['caseStudies'];
