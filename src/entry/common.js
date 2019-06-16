@@ -5,13 +5,13 @@ $(document).ready(function(){
     let pathArr = pathname.split('/');
     let keypath;
 
-    if (!pathArr[0]){
-        keypath = pathArr[pathArr.length - 2];
+    let pathArrLast = pathArr[pathArr.length - 1];
+    if (pathArrLast){
+        keypath = pathArrLast;
     } else {
-        keypath = pathArr[pathArr.length - 1];
+        keypath = pathArr[pathArr.length - 2];
     }
-     
-    console.log(keypath)
+
     $('.' + keypath).addClass('active');
 
     let aboutUs = ['news', 'events', 'teams', 'careers','newsDetail'];

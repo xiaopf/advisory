@@ -136,6 +136,14 @@ body {
     width: 100%;
     height:auto;
 }
+.carousel div{
+    width:99%;
+    padding-top:70px;
+    height:130px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
 .detail_wrap .text_wrap{
     width: 100%;
     height: auto;
